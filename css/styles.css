@@ -19,22 +19,15 @@ body {
   background-color: var(--basic-white-text);
   color: var(--primary-text-color);
 }
-/* h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-ul {
+
+ul{
   margin: 0;
   padding: 0;
-} */
+}
 a {
   text-decoration: none;
 }
 .list {
-  /* padding: 0;
-  margin: 0; */
   list-style: none;
 }
 .container {
@@ -61,6 +54,7 @@ a {
 
 .nav-list {
   display: flex;
+  margin: 0;
 }
 .nav-list .item + .item {
   margin-left: 50px;
@@ -73,9 +67,16 @@ a {
 .mail-list {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 .mail-list .item + .item {
   margin-left: 50px;
+}
+.logo-head{
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
 }
 .logo {
   color: var(--accent-color);
@@ -103,6 +104,9 @@ a {
   line-height: 1.14;
 }
 .mail-tel {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -126,6 +130,7 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
+  letter-spacing: 0.06em;
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
@@ -141,6 +146,7 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
 
   color: var(--basic-white-text);
   background-color: var(--accent-color);
@@ -176,7 +182,7 @@ a {
   }
 
 .features-tittle {
- 
+ margin-top: 0;
   margin-bottom: 10px;
 
   font-family: 'Roboto', sans-serif;
