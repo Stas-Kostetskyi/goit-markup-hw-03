@@ -128,8 +128,7 @@ a {
 .cap-tittle {
   margin-top: 0px;
   margin-bottom: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
+    font-weight: 900;
   font-size: 44px;
   letter-spacing: 0.06em;
   line-height: 1.36;
@@ -143,7 +142,6 @@ a {
   padding: 10px 32px;
   border-color: transparent;
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -186,7 +184,6 @@ a {
   margin-top: 0;
   margin-bottom: 10px;
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -225,17 +222,17 @@ a {
 .section-name {
   margin-top: 0;
   margin-bottom: 10px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em
 
   color: var(--tittle-text-color);
 }
 
 .section-work h2,
 .section-team h2 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -268,6 +265,11 @@ a {
 .team-list p {
   margin-top: 0;
   margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filters-button {
@@ -302,7 +304,6 @@ a {
   min-width: 130px;
 }
 .projects-link h2 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -361,7 +362,15 @@ a {
 
 /* footer */
 .footer {
+  padding: 60px 0px;
   background-color: var(--cap-footer-background-color);
+}
+.foot {
+  text-align: left;
+}
+.logo-foot {
+  display: inline-block;
+  margin-bottom: 20px;
 }
 .logo-footer {
   color: var(--basic-white-text);
@@ -371,13 +380,16 @@ a {
   font-size: 26px;
   line-height: 1.2;
 }
+
 .footer li {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
-
+.footer-list .li:not(:last-child) {
+  margin-bottom: 9px;
+}
 .address-mail-tel {
   color: var(--basic-white-text);
 }
