@@ -117,6 +117,7 @@ a {
 
 /* main */
 .cap {
+  display: block;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-top: 0px;
